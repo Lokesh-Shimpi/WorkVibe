@@ -1,5 +1,36 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
+  "routes":[
+    {
+      "src": "/",
+      "dest": "/"
+    },
+    {
+      "src":"/onboarding",
+      "dest": "/"
+    },
+    {
+      "src":"/jobs",
+      "dest": "/"
+    },
+    {
+      "src":"/job/:id",
+      "dest": "/"
+    },
+    {
+      "src":"/post-job",
+      "dest": "/"
+    },
+    {
+      "src":"/saved-jobs",
+      "dest": "/"
+    },
+    {
+      "src":"/onboarding",
+      "dest": "/"
+    },
+    {
+      "src":"/my-jobs",
+      "dest": "/"
+    }
   ]
 }
